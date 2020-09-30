@@ -34,6 +34,9 @@
 | 15 | 361页 |Fast Bin Attack 节小标题序号 6.3.6.2 应为 `6.6.3.2`                                                 |
 | 16 | 35页 |四级标题错误，应为`1.3.1.2`，`1.3.1.3`                                                 |
 | 17 | 317页 |base block改为`basic block`（base block也有说法，但普遍都是basic block）                                             |
+| 18 | 495页 | 在 lsb_encode 函数中 rgb[i] = rgb[i] & 0xfe + int(msg[count]) & 1 需要改为 `rgb[i] = (rgb[i] & 0xfe) + (int(msg[count]) & 1)` |
+| 19 | 29页 | 29页下方的代码中, 第五行(注释将空格替换为空一行), 应改为 $id = str_replace(" ", "", `$id`); |
+| 20 | 57页 | 第一个图1-3-22为`1-3-21` |
 
 ## 特别感谢
 
@@ -42,3 +45,4 @@
 * [流浪者](#): 指出序号9中的错误.
 * [ycdxsb](http://blog.ycdxsb.cn/): 指出序号11中的错误.
 * [十三年](#): 指出序号14中的错误.
+* [Hh0](https://www.cnblogs.com/wrnan/): 指出序号18中的错误.
